@@ -2,6 +2,7 @@
   "emmet.syntaxProfiles": {
     "javascript": "tsx"
   },
+  "telemetry.telemetryLevel": "off",
   "workbench.startupEditor": "newUntitledFile",
   "editor.fontSize": 16,
   "editor.cursorSmoothCaretAnimation": "off",
@@ -31,7 +32,6 @@
   },
   "screencastMode.onlyKeyboardShortcuts": true,
   "editor.parameterHints.enabled": false,
-  "editor.renderLineHighlight": "gutter",
   "editor.lineHeight": 26,
   "material-icon-theme.languages.associations": {
     "dotenv": "tune"
@@ -44,6 +44,27 @@
     "*.proto": "3d",
     "ormconfig.json": "database"
   },
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": true,
+  "editor.minimap.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.folding": false,
+  "workbench.sideBar.location": "left",
+  "workbench.editor.showTabs": true,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.welcomePage.walkthroughs.openOnInstall": false,
+  "breadcrumbs.enabled": false,
+  "editor.lightbulb.enabled": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "line",
+  "editor.renderControlCharacters": false,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
   "material-icon-theme.activeIconPack": "nest",
   "editor.suggestSelection": "first",
   "explorer.confirmDelete": false,
@@ -51,6 +72,11 @@
   "terminal.integrated.showExitAlert": false,
   "[prisma]": {
     "editor.formatOnSave": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.quickSuggestions": {
+    "strings": true
   },
   "typescript.suggest.autoImports": true,
   "terminal.integrated.env.osx": {
@@ -110,8 +136,6 @@
     "typescript",
     "typescriptreact"
   ],
-  "editor.semanticHighlighting.enabled": false,
-  "breadcrumbs.enabled": true,
   "workbench.productIconTheme": "fluent-icons",
   "gitlens.codeLens.authors.enabled": false,
   "editor.tabSize": 2,
@@ -128,7 +152,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "polacode.transparentBackground": true,
   "polacode.target": "snippet",
-  "editor.minimap.enabled": false,
   "update.mode": "start",
   "terminal.integrated.gpuAcceleration": "off",
   "[jsonc]": {
@@ -138,6 +161,7 @@
   "code-runner.executorMap": {
     "python": "clear ; python -u"
 },
+  "editor.semanticHighlighting.enabled": true,
   "code-runner.runInTerminal": true,
   "code-runner.ignoreSelection": true,
   "symbols.hidesExplorerArrows": false,
@@ -147,7 +171,6 @@
     "*.proto": "3d",
     "*.webpack.js": "webpack"
   },
-  "editor.inlineSuggest.enabled": true,
   "code-runner.clearPreviousOutput": true,
   "git.autofetch": true,
   "editor.linkedEditing": true,
@@ -158,7 +181,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.confirmSync": false,
-  "workbench.colorTheme": "Min Dark",
+  "workbench.colorTheme": "Palenight Theme",
   "material-icon-theme.files.color": "#cb8569",
   "material-icon-theme.folders.color": "#cb8569",
   "[typescript]": {
@@ -167,5 +190,13 @@
   "[dockercompose]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "discord.detailsIdling": "👀 Caçando o que fazer...",
+  "discord.detailsEditing": "☕ {file_name} com {file_size}",
+  "discord.largeImageIdling": "⏲️ Código, Café e ódio a sociedade",
+  "discord.lowerDetailsDebugging": "🐛 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📦 Projeto: {workspace}",
+  "discord.lowerDetailsIdling": "☕ Hora do café",
+  "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
+  "discord.lowerDetailsRunning": "🚀 Rodando: {git_branch}",
 }
